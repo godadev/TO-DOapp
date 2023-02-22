@@ -22,6 +22,7 @@ def file_handler_v1(command):
             print('Command not recognized')
 
 
+# function call params show, remove (files)
 # file_handler_v1('show')
 
 # Exercise 3
@@ -37,4 +38,3 @@ while True:
                 break
             else:
                 print(f'You chose to display the IP: {ips[int(user_input)]}')
-
