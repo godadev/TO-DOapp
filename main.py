@@ -1,7 +1,7 @@
 # A TO-DO application like many others
 # by Matej Music 2023
 # ------------------------------------
-
+# Added some functionality to save and read from a file
 
 while True:
     user_action = input('Type add, show, edit, complete or exit(x): ')
