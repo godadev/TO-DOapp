@@ -1,3 +1,7 @@
+# A TO-DO application like many others
+# by Matej Music 2023
+# ------------------------------------
+
 todos = []
 
 while True:
