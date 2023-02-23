@@ -10,16 +10,16 @@ while True:
         case 'add':
             todo = input('Enter a TO-DO: ') + '\n'
 
-            file = open('todo-data.txt', 'r')
+            file = open('SaveFiles/todo-data.txt', 'r')
             todos = file.readlines()
             file.close()
 
             todos.append(todo)
-            file = open('todo-data.txt', 'w')
+            file = open('SaveFiles/todo-data.txt', 'w')
             file.writelines(todos)
             file.close()
         case 'show':
-            file = open('todo-data.txt', 'r')
+            file = open('SaveFiles/todo-data.txt', 'r')
             todos = file.readlines()
             for index, item in enumerate(todos):
                 item = item.title()
